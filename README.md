@@ -1,4 +1,4 @@
-# address_list_to_geocoding
+# Address List to Geocoding
 Brief script to obtain latitude and longitude data from a list of addresses in order to use them on map visualisations 
 
 
@@ -33,7 +33,8 @@ The script was created as a cooperation with an academical research on schools. 
 - The loop will be querying the Geocoding APP for every row and adding new columns to the data frame with values lon, lat and geoAddress.
 - Download it to .csv for using on tools where maps can be created like PowerBI or use the data frame together with some other R mapping packages in order to create visualisations.
 - Check the map and look for wrong geolocalisations. As the API is guessing from an address, in some cases a different location with a similar name can be mistankely chosen. Most of those could be spotted easily.
-- WATCH OUT! : Google Cloud Console charges a fee per use. For testing purposes, the free credits provided when opening the account should be enough, but if you work with huge datasets or use it very often, you could be charged according to the use. 
+- **WATCH OUT!** : Google Cloud Console charges a fee per use. For testing purposes, the free credits provided when opening the account should be enough, but if you work with huge datasets or use it very often, you could be charged according to the use. 
+
 
 ## - Example of final results:
 This map was created on PowerBI using the results of the data frame modified by the script. A segmentation between public and private schools available on the original list has been used as a basis for the colours of the different dots.

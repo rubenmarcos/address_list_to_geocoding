@@ -36,4 +36,5 @@ The script was created as a cooperation with an academical research on schools. 
 - WATCH OUT! : Google Cloud Console charges a fee per use. For testing purposes, the free credits provided when opening the account should be enough, but if you work with huge datasets or use it very often, you could be charged according to the use. 
 
 ## - Example of final results:
+This map was created on PowerBI using the results of the data frame modified by the script. A segmentation between public and private schools available on the original list has been used as a basis for the colours of the different dots.
 ![Ejemplo geolocalización](/Geocoding%20Example.PNG)
